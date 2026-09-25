@@ -1,0 +1,33 @@
+{
+  "name": "crossbridge",
+  "version": "1.0.0",
+  "description": "Bridge a Telegram chat and a WhatsApp number in real time, with delivery receipts, media, AI translation and summaries. Hono + TypeScript on Netlify Functions, Netlify Blobs, Telegram Bot API, Twilio WhatsApp and Gemini.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types tests/unit.test.ts"
+  },
+  "author": "Nishant Singh",
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.1",
+    "framer-motion": "^11.18.2",
+    "hono": "^4.13.9",
+    "qrcode-generator": "^1.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^3.1.10",
+    "@types/node": "^22.20.4",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}
